@@ -1,0 +1,31 @@
+.transaction-status-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 1rem auto;
+}
+
+.transaction-status-container input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transaction-status-container button {
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.transaction-status-container button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
